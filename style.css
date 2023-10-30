@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  font-family: "General sans";
+}
+
+.main {
+  width: 100%;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+#hero nav {
+  width: 100%;
+  padding: 20px 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.heading {
+  margin-top: 90px;
+  overflow: hidden;
+}
+.blocktext {
+  width: fit-content;
+}
+.blocktext h5 {
+  text-align: right;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.heading h1 {
+  opacity: 0;
+  margin-left: 2vw;
+  font-size: 9vw;
+  opacity: 0.6;
+  line-height: 0.9;
+}
+.heading .secondh1 {
+  margin-left: 12.2vw;
+}
+
+.chotiheadings {
+  margin-top: 100px;
+  text-transform: uppercase;
+  text-align: right;
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.hero-footer {
+  padding: 0 2vw;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  font-size: 14px;
+}
+.hero-footer a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.second {
+  color: white;
+  padding-right: 10vw;
+  padding-top: 200px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding-left: 2vw;
+}
+.elem {
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #888;
+  padding: 3.5vw 3vw;
+  display: flex;
+  padding-right: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem h1 {
+  opacity: 0.7;
+  text-transform: uppercase;
+  font-size: 7.6vw;
+}
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+.elem img {
+  position: absolute;
+  z-index: 999;
+  height: 140%;
+  /* display: none; */
+}
+.about-main {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 80vh;
+  justify-content: right;
+  align-items: center;
+}
+.about {
+  width: 60%;
+  height: fit-content;
+  /* height: 200px; */
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 100;
+  align-items: center;
+}
+.about-content span {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.about-content {
+  margin-left: 30px;
+}
+.about p {
+  margin-bottom: 20px;
+}
+.about button {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: black;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.about img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: top right;
+  /* border-radius: 50%; */
+}
+.subscribe {
+  background-color: black;
+  color: white;
+  height: 18vh;
+  padding: 10px 2vw;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+.subscribe h3 {
+  font-weight: 300;
+  font-size: 14px;
+}
+.subscribe h5 {
+  opacity: 0.6;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 2vw;
+  color: white;
+}
+footer .left {
+  display: flex;
+  gap: 20px;
+}
+footer .right {
+  display: flex;
+  gap: 15px;
+}
+.miniCircle {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 999;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+.boundingelem {
+  transform: translateY(100%);
+}
+anim2 {
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    width: 100%;
+    font-size: 3.5vw;
+  }
+}
